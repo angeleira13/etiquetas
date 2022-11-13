@@ -1,0 +1,763 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Dropdown nav-bar Bar</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+</head>
+<style>
+    .caja {
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px #FFD700;
+        padding: 50px;
+        margin: 20px;
+    }
+</style>
+
+<body>
+    <header>
+        <section class="nav-bar">
+            <div class="nav-container">
+                <div class="brand">
+                    <a href="/"><img src="imgs/logo.jpg" style="width: 60px; margin-top: 5px; "></a>
+                </div>
+                <nav>
+                    <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#">Inicio</a>
+                        </li>
+                        
+       
+                        <li>
+                            <a href="index.html">CSS3</a>
+                        </li>
+                        <li>
+                            <a href="ejerciciosJquery.html">jQuery</a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                        <li>
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+     
+
+    <div class="w3-container w3-blue Responsive  " style="background-color: white ;">
+        <h1 style="text-align:center;">Etiquetas JavaScript / jQuery </h1>
+    </div>
+
+    <div class="w3-container-row-padding ">
+        <div class="w3-third" style="background-color:0B282C;color:white ;">
+            <h2>Forma</h2>
+
+        </div>
+
+        <div class="w3-third" style="background-color:0B282C ;color:white ;">
+            <h2>Descripción</h2>
+
+        </div>
+
+        <div class="w3-third" style="background-color:0B282C ;color:white ;">
+            <h2>Ejemplo</h2>
+
+        </div>
+
+    </div>
+    <br>
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Introduccion</h4>
+        </div>
+
+        <div class="w3-third">
+            <ul>
+                <li>JavaScript es el lenguaje de programación más popular del mundo.</li>
+                <li>JavaScript es el lenguaje de programación de la Web.</li>
+                <li>JavaScript es fácil de aprender.</li>               
+            </ul>           
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo</h4>
+            <img src="imgs/img01.png" alt="" width="300px" height="30px">
+            <h4>Resultado</h4>
+            <p id="demo"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Visualizacion</h4>
+        </div>
+
+        <div class="w3-third">
+            JavaScript puede "mostrar" datos de diferentes maneras:
+            <ul>
+                <li>Escribir en un elemento HTML, usando innerHTML.</li>
+                <li>Escribir en la salida HTML usando document.write().</li>
+                <li>Escribir en un cuadro de alerta, usando window.alert().</li> 
+                <li>Escribiendo en la consola del navegador, usando console.log().</li>              
+            </ul>           
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo</h4>
+            <img src="imgs/img02.png" alt="" width="300px" height="50px">
+            <h4>Resultado</h4>
+            <p id="demo2"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Declaraciones</h4>
+        </div>
+
+        <div class="w3-third">
+            Las declaraciones de JavaScript se componen de: <br>
+            Valores, operadores, expresiones, palabras clave y comentarios. <br>
+            La mayoría de los programas de JavaScript contienen muchas declaraciones de JavaScript.<br>
+            Las declaraciones se ejecutan, una por una, en el mismo orden en que se escriben.   <br>      
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo</h4>
+            <img src="imgs/img03.png" alt="" width="300px" height="150px">
+            <h4>Resultado</h4>
+            <p id="demo3"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Variables</h4>
+        </div>
+
+        <div class="w3-third">
+            En un lenguaje de programación, las variables se utilizan para almacenar valores de datos. <br>
+            JavaScript usa las palabras clave yvar para letdeclarar constvariables .<br>           
+            Se utiliza un signo igual para asignar valores a las variables.<br>           
+            En este ejemplo, x se define como una variable. Entonces, a x se le asigna (dado) el valor 6     
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo</h4>
+            <img src="imgs/img04.png" alt="" width="300px" height="100px">
+            <h4>Resultado</h4>
+            <p id="demo4"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Operadores</h4>
+        </div>
+
+        <div class="w3-third">
+            Hay diferentes tipos de operadores de JavaScript:
+            <ul>
+                <li>Operadores aritméticos</li>
+                <li>Operadores de Asignación</li>
+                <li>Operadores de comparación</li>
+                <li>Operadores logicos</li>
+                <li>Operadores Condicionales</li>
+                <li>Operadores de tipo  </li>
+            </ul>
+
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Uso de operadores</h4>
+            <img src="imgs/img05.png" alt="" width="300px" height="150px">
+            <h4>Resultado</h4>
+            <p id="demo5"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Tipos de datos</h4>
+        </div>
+
+        <div class="w3-third">
+            Las variables de JavaScript pueden contener diferentes tipos de datos: números, cadenas, objetos y más: <br>
+            let length = 16;                                Number <br>
+            let lastName = "Johnson";                       String <br>
+            let x = {firstName:"John", lastName:"Doe"};     Object <br>
+
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Ejemplo de tipos de datos </h4>
+            <img src="imgs/img06.png" alt="" width="300px" height="100px">
+            <h4>Resultado</h4>
+            <p id="demo6"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Funciones</h4>
+        </div>
+
+        <div class="w3-third">
+            Una función de JavaScript es un bloque de código diseñado para realizar una tarea en particular. <br>
+            Una función de JavaScript se ejecuta cuando "algo" la invoca (lo llama).
+
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Ejemplo de funcion</h4>
+            <img src="imgs/img07.png" alt="" width="300px" height="120px">
+            <h4>Resultado</h4>
+            <p id="demo7"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Objetos</h4>
+        </div>
+
+        <div class="w3-third">
+            Los objetos también son variables. Pero los objetos pueden contener muchos valores. <br>
+            Este código asigna muchos valores (Fiat, 500, blanco) a una variable denominada automóvil:
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Ejemplo de Objeto</h4>
+            <img src="imgs/img08.png" alt="" width="300px" height="120px">
+            <h4>Resultado</h4>
+            <p id="demo8"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Eventos</h4>
+        </div>
+
+        <div class="w3-third">
+            Un evento HTML puede ser algo que hace el navegador o algo que hace un usuario. <br><br>
+
+            Estos son algunos ejemplos de eventos HTML: <br>
+            <ul>
+                <li>Una página web HTML ha terminado de cargarse </li>
+                <li>Se cambió un campo de entrada HTML </li>
+                <li>Se hizo clic en un botón HTML</li>
+                <li>A menudo, cuando suceden los eventos, es posible que desee hacer algo. </li>
+            </ul>      
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Ejemplo de Evento</h4>
+            <img src="imgs/img09.png" alt="" width="300px" height="30px">
+            <h4>Resultado</h4>
+            <button onclick="document.getElementById('demo9').innerHTML=Date()">Presiona para saber la hora</button>
+            <p id="demo9"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Metodos de Cadenas</h4>
+        </div>
+
+        <div class="w3-third">
+            <table border="solid 1px">
+                <tr>
+                    <td>slice()</td>
+                    <td>Cadena subcadena()</td>
+                </tr>
+                <tr>
+                    <td> Cadena substr()</td>
+                    <td>Cadena replace()</td>
+                </tr>
+                <tr>
+                    <td> Cadena replaceAll()</td>
+                    <td>Cadena toUpperCase()</td>
+                </tr>
+                <tr>
+                    <td>Cadena toLowerCase()</td>
+                    <td>Cadena concat()</td>
+                </tr>
+                <tr>
+                    <td>String trim()</td>
+                    <td>String trimStart()</td>
+                </tr>
+                <tr>
+                    <td>String trimEnd()</td>
+                    <td>String padStart()</td>
+                </tr>
+                <tr>
+                    <td>String padEnd()</td>
+                    <td>String charAt()</td>
+                </tr>
+                 <tr>
+                    <td>String charCodeAt()</td>
+                    <td>String split()  </td>
+                </tr>
+            </table>
+     
+               
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Funcion de cadena Lenght()</h4>
+            <img src="imgs/img010.png" alt="" width="300px" height="150px">
+            <h4>Resultado</h4>
+            <p id="demo10"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Numeros</h4>
+        </div>
+
+        <div class="w3-third">
+         <p>JavaScript tiene un solo tipo de número. Los números se pueden escribir con o sin decimales.</p>
+     
+               
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Ejemplos de numeros Js</h4>
+            <img src="imgs/img011.png" alt="" width="300px" height="150px">
+            <h4>Resultado</h4>
+            <p id="demo11"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Metodos Numéricos </h4>
+        </div>
+
+        <div class="w3-third">
+         <p>Estos métodos numéricos se pueden usar en todos los números de JavaScript:</p>
+         <table border="solid 1px" >
+            <thead>
+                <th>Método</th>
+                <th>Descripcion</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>toString()</td>
+                    <td>Devuelve un número como una cadena</td>
+                </tr>
+                <tr>
+                    <td>toExponetial()</td>
+                    <td>Devuelve un número escrito en notación exponencial</td>
+                </tr>
+                <tr>
+                    <td>toFixed()</td>
+                    <td>Devuelve un número escrito con un número de decimales</td>
+                </tr>
+                <tr>
+                    <td>toPrecision()</td>
+                    <td>Devuelve un número escrito con una longitud especificada</td>
+                </tr>
+                <tr>
+                    <td>ValueOf()</td>
+                    <td>Devuelve una cadena como un número</td>
+                </tr>
+            </tbody>
+         </table>
+
+     
+               
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Ejemplos de método </h4>
+            <img src="imgs/img012.png" alt="" width="300px" height="150px">
+            <h4>Resultado</h4>
+            <p id="demo12"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">   
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Matrices </h4>
+        </div>
+
+        <div class="w3-third">
+         <p>Es una práctica común declarar arreglos con la palabra clave const . <br>
+          Obtenga más información sobre const con arreglos en el capítulo: JS Array Const . <br>
+          Ejemplo : const array_name = [item1, item2, ...]; 
+        
+        </p>              
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Ejemplos de Matriz </h4>
+            <img src="imgs/img013.png" alt="" width="300px" height="130px">
+            <h4>Resultado</h4>
+            <p id="demo13"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Fechas </h4>
+        </div>
+
+        <div class="w3-third">
+            <p> <b>Fechas JS</b> </p>
+         <p>
+            Los objetos de fecha de JavaScript nos permiten trabajar con fechas:
+        </p>              
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Ejemplos de Fecha </h4>
+            <img src="imgs/img014.png" alt="" width="300x" height="130px">
+            <h4>Resultado</h4>
+            <p id="demo14"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Bucles </h4>
+        </div>
+
+        <div class="w3-third">
+            <p> <b>Bucles JS</b> </p>
+         <p>
+            Los bucles son útiles si desea ejecutar el mismo código una y otra vez, cada vez con un valor diferente. <br>
+        A menudo, este es el caso cuando se trabaja con matrices:
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Ejemplos de Bucle </h4>
+            <img src="imgs/img015.png" alt="" width="300px" height="130px">
+            <h4>Resultado</h4>
+            <p id="demo15"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JavaScript-Errores </h4>
+        </div>
+
+        <div class="w3-third">
+            <p> <b>Tipos de Errores JS</b> </p>
+         <p>
+            Al ejecutar código JavaScript, pueden ocurrir diferentes errores. <br>
+            Los errores pueden ser errores de codificación cometidos por el programador, 
+            errores debido a una entrada incorrecta y otras cosas imprevisibles. <br> <br>
+            Try declaración define un bloque de código para ejecutar (para probar).<br>
+
+            Catch declaración define un bloque de código para manejar cualquier error.<br>
+
+            Finally declaración define un bloque de código para ejecutar independientemente del resultado.<br>
+
+            Throwinstrucción define un error personalizado.  <br>
+
+        </div>
+
+        <div class="w3-third">
+            <h4>Codigo : Ejemplos de Error con Catch </h4>
+            <img src="imgs/img016.png" alt="" width="300px" height="130px">
+            <h4>Resultado</h4>
+            <p id="demo16"></p>
+        </div>
+
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JQuery-Animaciones </h4>
+        </div>
+
+        <div class="w3-third">
+            <p> <b>Carrusel de imagenes</b> </p>
+            <h4>Codigo : </h4>
+            <img src="imgs/img017.png" alt="" width="300px" height="400px">
+
+        </div>
+
+        <div class="w3-third">
+           
+            <h4>Resultado</h4>
+            <div class="carousel">
+                <button id="retroceder">Retroceder</button>
+                <div id="imagen"></div>
+                <button id="avanzar">Avanzar</button>
+            </div>
+            <div class="controles">
+                <button id="play">Play</button>
+                <button id="stop" disabled>Stop</button>
+            </div>
+        </div>
+    </div>
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    
+    <br><br><br><br>
+   
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JQuery-Animaciones </h4>
+        </div>
+
+        <div class="w3-third">
+            <p> <b>LLamadas Jquery</b> </p>
+            <h4>Codigo : </h4>
+            <img src="imgs/img019.png" alt="" width="300px" height="120px">
+
+        </div>
+
+        <div class="w3-third">
+           
+            <h4>Resultado</h4>
+            <button id="button1" >Enviar Texto</button>
+            <p id="pr"  >Este texto se va a la llamada</p>
+            
+        </div>
+    </div>
+
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JQuery-Animaciones </h4>
+        </div>
+
+        <div class="w3-third">
+            <p> <b>Mostrar y Ocultar Jquery</b> </p>
+            Con jQuery, puede ocultar y mostrar elementos HTML con los métodos hide()y :show()
+            <h4>Codigo : </h4>
+            <img src="imgs/img020.png" alt="" width="300px" height="150px">
+
+        </div>
+
+        <div class="w3-third">
+           
+            <h4>Resultado</h4>
+            <p id="p2" >Este texto tiende a desaparecer.</p>
+
+            <button id="hide">Ocultar</button>
+            <button id="show">Mostrar</button>
+            
+        </div>
+    </div>
+
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    <div class="w3-row-padding">
+        <div class="w3-third">
+            <h4>JQuery-Animaciones </h4>
+        </div>
+
+        <div class="w3-third">
+            <p> <b>Encadenar con Jquery</b> </p>
+            Con jQuery, puede encadenar acciones/métodos. <br>
+            El encadenamiento nos permite ejecutar múltiples métodos jQuery <br>
+            (en el mismo elemento) dentro de una sola declaración.
+            <h4>Codigo : </h4>
+            <img src="imgs/img021.png" alt="" width="300px" height="100px">
+
+        </div>
+
+        <div class="w3-third">
+           
+            <h4>Resultado</h4>
+            <p id="parrafo1" >Este texto es deslizable.</p>
+            <button id="btn1" >Click</button>
+        </div>
+    </div>
+
+    <hr style="border:solid 1px ; color: cadetblue; ">
+    
+    <!-- pie de pagina -->
+    <footer>
+
+        <div class="container__footer">             
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"> <i class="fab fa-facebook-square"></i>  Luis Angel Hidalgo Cano </a>
+                <a href="#"><i class="fab fa-twitter-square"></i>  @LuisHidalgo  </a> 
+                <a href="#"><i class="fab fa-linkedin"></i>    Luis Hidalgo</a>
+            </div>
+
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2022 <b>Luis Angel Hidalgo Cano</b></p>
+        </div>
+    </footer>
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
+
+<script>
+    (function ($) {
+        $(function () {
+            $('nav ul li a:not(:only-child)').click(function (e) {
+                $(this).siblings('.nav-dropdown').toggle();
+                $('.dropdown').not($(this).siblings()).hide();
+                e.stopPropagation();
+            });
+            $('html').click(function () {
+                $('.nav-dropdown').hide();
+            });
+            $('#nav-toggle').click(function () {
+                $('nav ul').slideToggle();
+            });
+            $('#nav-toggle').on('click', function () {
+                this.classList.toggle('active');
+            });
+        });
+    })(jQuery);
+
+    document.getElementById("demo").innerHTML = "Hola Mundo JavaScript";
+    document.getElementById("demo2").innerHTML = 5 + 6;
+
+    var x, y, z;  // Statement 1
+    x = 5;        // Statement 2
+    y = 6;        // Statement 3
+    z = x + y;    // Statement 4
+    document.getElementById("demo3").innerHTML =
+    "The value of z is " + z + "."; 
+    
+    var x;
+    x = 6;
+    document.getElementById("demo4").innerHTML = x;
+
+    var a = 3;
+    var x = (100 + 50) * a;
+    document.getElementById("demo5").innerHTML = x;
+
+    var z = 16 + "Volvo";
+    document.getElementById("demo6").innerHTML = z;
+</script>
+<script>
+    function myFunction(p1, p2) {
+      return p1 * p2;
+    }
+    document.getElementById("demo7").innerHTML = myFunction(4, 3);
+</script>
+<script>
+    // Creaando objeto
+    const car = {type:"Fiat", model:"500", color:"white"};
+    // Mostrar algunos datos del objeto
+    document.getElementById("demo8").innerHTML = "The car type is " + car.type;
+</script>
+
+<script>
+    let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.getElementById("demo10").innerHTML = text.length;
+</script>
+<script>
+    var x = 3.14;
+    var y = 3;
+    document.getElementById("demo11").innerHTML = x + "<br>" + y;
+</script>
+<script>
+    var x = 9.656;
+    document.getElementById("demo12").innerHTML =
+      x.toExponential() + "<br>" + 
+      x.toExponential(2) + "<br>" + 
+      x.toExponential(4) + "<br>" + 
+      x.toExponential(6);
+</script>
+<script>
+    const cars = ["Saab", "Volvo", "BMW"];
+    document.getElementById("demo13").innerHTML = cars;
+</script>
+<script>
+    const d = new Date("2022-03-25");
+    document.getElementById("demo14").innerHTML = d;
+</script>
+
+<script>
+    let t = "";
+    
+    for (var i = 0; i < 5; i++) {
+      t += "El numero  es " + i + "<br>";
+    }
+    
+    document.getElementById("demo15").innerHTML = t;
+</script>
+
+<script>
+    try {
+      adddlert("Bienvenido");
+    }
+    catch(err) {
+      document.getElementById("demo16").innerHTML = err.message;
+    }
+</script>
+
+
+
+<script> 
+    $(document).ready(function(){
+      $("#button2").click(function(){
+        $("#divC").animate({left: '1200px'});
+      });
+    });
+</script> 
+<script>
+    $(document).ready(function(){
+      $("#button1").click(function(){
+        $("#pr").hide("slow", function(){
+          alert("Este Mensaje se va a la llamada");
+        });
+      });
+    });
+</script>
+<script>
+    $(document).ready(function(){
+      $("#hide").click(function(){
+        $("#p2").hide();
+      });
+      $("#show").click(function(){
+        $("#p2").show();
+      });
+    });
+
+    $(document).ready(function(){
+    $("#btn1").click(function(){
+    $("#parrafo1").css("color", "red").slideUp(2000).slideDown(2000);
+    });});
+</script>
+
